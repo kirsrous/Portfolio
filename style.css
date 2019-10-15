@@ -1,0 +1,96 @@
+body{
+  background: linear-gradient(to right, rgb(226, 70, 81), rgb(69, 0, 255)) repeat scroll 0% 0%;
+  color: rgba(255,255,255,0.8);
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  position:relative;
+}
+.navbar {
+  height: 75px;
+  width: 100%;
+  margin: 0 auto;
+
+
+}
+.navhead{
+  position: fixed;
+}
+.right{
+  float: right;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 1.5em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+.navbar ul li a:hover {
+  color: rgba(255,255,255,0.5);
+  text-decoration: underline;
+}
+.main {
+
+  height: 500px;
+  width: 1450px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.main h1{
+  font-size: 2.5em;
+}
+.main p{
+  font-size: 20px;
+}
+#pain{
+  font-size: 1.5em;
+  line-height: 30px;
+}
+.bio a{
+  margin-top: 50px;
+  padding: 50px;
+}
+#profile{
+  float:right;
+  height: 600px;
+  width: 400px
+}
+#projectA{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #000;
+}
+.card{
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.card img{
+  height: 200px;
+  width: 300px;
+}
+.card a{
+  color: #fff;
+  text-decoration: none;
+}
+.card a:hover{
+  color: #123fac;
+}
+.navfoot{
+  padding-top: 250px;
+  height: 75px;
+  width: 850px;
+  margin: 0 auto;
+}
